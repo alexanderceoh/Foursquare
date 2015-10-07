@@ -15,6 +15,8 @@
 		49BA643E1BC4004200D1E264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BA643D1BC4004200D1E264 /* Assets.xcassets */; };
 		49BA64411BC4004200D1E264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49BA643F1BC4004200D1E264 /* LaunchScreen.storyboard */; };
 		49BA64491BC4017500D1E264 /* Foursquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA64481BC4017500D1E264 /* Foursquare.swift */; settings = {ASSET_TAGS = (); }; };
+		49BE15F51BC561A7007C3E70 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE15F41BC561A7007C3E70 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		49BE15F71BC56454007C3E70 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BE15F61BC56454007C3E70 /* WebViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		49BA64401BC4004200D1E264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49BA64421BC4004200D1E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BA64481BC4017500D1E264 /* Foursquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foursquare.swift; sourceTree = "<group>"; };
+		49BE15F41BC561A7007C3E70 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		49BE15F61BC56454007C3E70 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				49BA643F1BC4004200D1E264 /* LaunchScreen.storyboard */,
 				49BA64421BC4004200D1E264 /* Info.plist */,
 				490759751BC46347008CF360 /* VenuesTableViewController.swift */,
+				49BE15F41BC561A7007C3E70 /* ProfileViewController.swift */,
+				49BE15F61BC56454007C3E70 /* WebViewController.swift */,
 				490759771BC468A5008CF360 /* Constants.swift */,
 			);
 			path = Venues;
@@ -144,9 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BE15F51BC561A7007C3E70 /* ProfileViewController.swift in Sources */,
 				490759781BC468A5008CF360 /* Constants.swift in Sources */,
 				49BA64491BC4017500D1E264 /* Foursquare.swift in Sources */,
 				49A11AE61BC421BF009F9B10 /* MapViewController.swift in Sources */,
+				49BE15F71BC56454007C3E70 /* WebViewController.swift in Sources */,
 				49BA64371BC4004200D1E264 /* AppDelegate.swift in Sources */,
 				490759761BC46347008CF360 /* VenuesTableViewController.swift in Sources */,
 			);
